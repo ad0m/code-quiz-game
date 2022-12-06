@@ -275,7 +275,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            location.replace("./HighScores.html");
+            location.replace(".HighScores.html");
         }
     });
 
