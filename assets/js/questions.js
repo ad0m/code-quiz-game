@@ -24,28 +24,28 @@ var olCreate = document.createElement("ol");
 
 var questions = [
     {
-        title: "One + Two",
-        choices: ["Five", "Four", "Three", "Two"],
-        answer: "Three"
+        title: "Inside which HTML element do we put the JavaScript?",
+        choices: ["<js>", "<script>", "<scripting>", "<javascript>"],
+        answer: "<script>"
     },
     {
-        title: "One + One",
-        choices: ["Five", "Four", "Three", "Two"],
-        answer: "Two"
+        title: "Where is the correct place to insert a JavaScript?",
+        choices: ["The <head> section", "The <body> section", "The <header> section", "The <footer> section"],
+        answer: "The <body> section"
     },
     {
-        title: "Two + Two",
-        choices: ["Five", "Four", "Three", "Two"],
-        answer: "Four"
+        title: "Who invented JavaScript?",
+        choices: ["Barak Obama", "Brendan Eich", "Bill Gates", "Mark Shuttleworth"],
+        answer: "Brendan Eich"
     },
     {
-        title: "Three + Two",
-        choices: ["Five", "Four", "Three", "Two"],
-        answer: "Five"
+        title: "How to write an IF statement in JavaScript?",
+        choices: ["if i == 5 then", "if i = 5 then", "if(i === 5)", "if i = 5"],
+        answer: "if(i === 5)"
     },
     {
-        title: "Five + Five",
-        choices: ["Ten", "Four", "Three", "Two"],
+        title: "Commonly used data types DO NOT include:",
+        choices: ["strings", "booleans", "alerts", "numbers"],
         answer: "alerts"
     },
 
